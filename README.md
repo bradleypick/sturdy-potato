@@ -1,12 +1,12 @@
 # Some useful containers
 
-## golang container
+## golang
 
 ```
 docker run --rm -it --volume ./:/go/ golang:1.14
 ```
 
-## tensorflow containers
+## tensorflow (python)
 
 ```
 docker run --gpus all -it --rm tensorflow/tensorflow:2.1.0-gpu-py3 \
