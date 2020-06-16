@@ -3,7 +3,7 @@
 ## golang
 
 ```
-docker run --rm -it --volume ./:/go/ golang:1.14
+docker run --rm -it --volume $(pwd):/go/ golang:1.14
 ```
 
 ## tensorflow (python)
